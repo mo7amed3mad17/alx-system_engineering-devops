@@ -6,4 +6,4 @@ KEY_BITS=4096
 PASSPHRASE="betty"
 EMAIL="memo12317emad@gmail.com"
 
-ssh-keygen -t rsa -b $iKEY_BITS -N $PASSPHRASE -f ~/.ssh/$KEY_NAME -C $EMAIL
+ssh-keygen -t rsa -b $KEY_BITS -N $PASSPHRASE -f $KEY_NAME -C $EMAIL
