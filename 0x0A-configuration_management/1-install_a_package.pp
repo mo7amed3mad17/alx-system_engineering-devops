@@ -1,3 +1,5 @@
+#Using Puppet, install flask from pip3
+
 node default {
   
   # Ensure pip3 is installed
@@ -12,3 +14,4 @@ node default {
     require => Package['python3-pip'],
   }
 }
+
