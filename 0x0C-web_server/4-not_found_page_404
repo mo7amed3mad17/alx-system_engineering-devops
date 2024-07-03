@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Configure the server
 
 echo -e "Updating and installing Nginx.\n"
 sudo apt-get update -y -qq && \
@@ -33,3 +34,4 @@ sudo sed -i '25i\	error_page 404 /error_404.html;' /etc/nginx/sites-available/de
 sudo service nginx restart
 
 echo -e "\nCompleted.\n"
+
