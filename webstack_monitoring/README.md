@@ -1,1 +1,2 @@
-webstack_monitoring
+webstack-monitoring
+
