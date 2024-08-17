@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+""" First API dealing """
+
 import requests
 import sys
 
